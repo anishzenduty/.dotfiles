@@ -1,0 +1,72 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Tokyo Night",
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderWhitespace": "all",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "workbench.activityBar.location": "top",
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/bower_components": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/public/{[^i],?[^n]}*": true,
+    "**/target": true,
+    "**/vendor/{[^l],?[^ai]}*": true,
+    "**/yarn.lock": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.guides.indentation": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.labelFormat": "short",
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "variable.language",
+          "entity.other.attribute-name.html",
+          "entity.other.attribute-name",
+          "keyword.control",
+          "storage.type",
+          "comment",
+          "comment.block",
+          "comment.line"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.linkedEditing": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always"
+  },
+  "editor.formatOnSave": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
