@@ -1,0 +1,16 @@
+[user]
+	name = anishzenduty
+	email = anish@zenduty.com
+	signingkey = somekey
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[rerere]
+	enabled = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[fetch]
+	writeCommitGraph = true
